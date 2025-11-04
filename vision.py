@@ -70,7 +70,7 @@ class QRScanner:
         if not distances:
             return 0.0, None, "px/frame"
             
-        # Calculate average speed in pixels per frame
+        # Calculate average speed in pixels per frame.
         avg_speed_px = sum(distances) / len(distances)
             
         # Direction vector from first to last point (for overall movement direction)
